@@ -118,6 +118,20 @@ public class MainActivity extends AppCompatActivity {
                 mNextBtn.setText("Finish");
                 mBackBtn.setText("Back");
 
+                if (position == mDots.length - 1)
+                {
+                    mNextBtn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(MainActivity.this, Selection_Activity.class);
+                            startActivity(intent);
+                        }
+                    });
+
+                }//end if
+
+
+
                 
 
             }//end else if
@@ -137,6 +151,8 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onPageScrollStateChanged(int state) {
+
+
 
         }
     };
