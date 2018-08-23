@@ -4,44 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
-    android:minHeight="88dp"
-    android:orientation="horizontal"
-    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
     tools:context=".Selection_Activity">
 
+    <TextView
+        android:id="@+id/tourism"
+        style="@style/CategoryStyle"
+        android:background="@color/Toursim"
+        android:text="Tourism" />
 
-    <ImageView
-        android:layout_width="88dp"
-        android:layout_height="88dp"
-        android:id="@+id/image_view"/>
+    <TextView
+        android:id="@+id/parks_recreations"
+        style="@style/CategoryStyle"
+        android:background="@color/Parks_Recreational"
+        android:text="Parks and Recreationals" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/text_container"
-        android:orientation="vertical">
+    <TextView
+        android:id="@+id/accommodation"
+        style="@style/CategoryStyle"
+        android:background="@color/Accommodation"
+        android:text="Accommodation" />
 
-        <TextView
-            android:id="@+id/default_text"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="top"
-            android:text="Tourism"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            />
-        <TextView
-            android:id="@+id/miwok_text"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="bottom"
-            android:text="Tourism is Nairobi county is in another level"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            />
+    <TextView
+        android:id="@+id/airport"
+        style="@style/CategoryStyle"
+        android:background="@color/Airports"
+        android:text="Airport" />
 
+    <TextView
+        android:id="@+id/about_nairobi"
+        style="@style/CategoryStyle"
+        android:background="@color/About_Nairobi"
+        android:text="About Nairobi County"/>
 
-
-    </LinearLayout>
 
 </LinearLayout>

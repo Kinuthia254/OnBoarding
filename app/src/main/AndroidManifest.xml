@@ -9,17 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
-
             <intent-filter>
-
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Selection_Activity"></activity>
+        <activity android:name=".Selection_Activity"
+            />
+
+        <activity android:name=".Tourism_Activity"
+            android:label="Tourism"/>
+        <activity android:name=".Parks_And_Recreational_Activity"
+            android:label="Parks And Recreational"/>
+        <activity android:name=".Accommodation_Activity"
+            android:label="Accommodation"/>
+        <activity android:name=".Airport_Activity"
+            android:label="Airport"/>
+        <activity android:name=".About_Nairobi_Activity"
+            android:label="About Nairobi"/>
     </application>
 
 </manifest>

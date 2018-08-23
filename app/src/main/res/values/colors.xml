@@ -5,4 +5,17 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorwhite">#FFFFFF</color>
     <color name="colorTransparentwhite">#cccccc</color>
+
+    <color name="tan_background">#FFF7DA</color>
+
+    <color name="Toursim">#FD8E09</color>
+
+    <color name="Parks_Recreational">#379237</color>
+
+    <color name="Airports">#8800A0</color>
+
+    <color name="Accommodation">#16AFCA</color>
+
+    <color name="About_Nairobi">#FF4081</color>
+
 </resources>
